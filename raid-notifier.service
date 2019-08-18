@@ -1,0 +1,7 @@
+[Unit]
+Description=Raid Notifier
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/raid-notifier
